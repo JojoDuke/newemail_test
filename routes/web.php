@@ -7,4 +7,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+// Route to send email
 Route::get('/send', [MailController::class, 'sendEmail']);
