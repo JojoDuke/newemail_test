@@ -7,12 +7,14 @@
     <title>Test Mail</title>
 </head>
 <body>
-    <h1>{{ $details['title'] }}</h1>
-    <h4>{{ $details['body'] }}</h4>
-    <h4>{{ $details['iso'] }} EN is the language iso code</h4>
-    <h4>To user {{ $details['user_id'] }} <br/>at {{ $details['email'] }}</h4>
-    <h4>Status Code is {{ $details['status'] }}</h4>
-    <p>The app name is {{ config('app.name') }}</p>
+    <div>
+        <h1>{{ $details['title'] }}</h1>
+        <h4>{{ $details['body'] }}</h4>
+        <h4>{{ $details['iso'] }} EN is the language iso code</h4>
+        <h4>To user {{ $details['user_id'] }} <br/>at {{ $details['email'] }}</h4>
+        <h4>Status Code is {{ $details['status'] }}</h4>
+        <p>The app name is {{ config('app.name') }}</p>
+    </div>
 </body>
 </html>
 
